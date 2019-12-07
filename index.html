@@ -10,14 +10,20 @@
 <body>
     <h4>VSCode &amp; Git Tips</h4>
 
-    <h5>How to set your local username and email</h5>
+    <h5>To Set Username/Email Locally</h5>
     <ul>
-        <li>Press the CTRL + ~ keys</li>
-        <li>In the terminal type the following then click Enter:
-            git --config user.name "your-git-user-name" (then Enter)
-            git --config user.email "your-git-email" (then Enter)
-            git --list (to see your updated configuration)
-        </li>
+        <li>git config --global user.name "your-git-username"</li>
+        <li>git config --global user.email your@email.com</li>
+    </ul>
+    
+    <h5>To Set Username/Email Globally</h5>
+    <ul>
+        <li>git config --global user.name "your-git-username"</li>
+        <li>git config --global user.email your@email.com</li>
+    </ul>
+    <h5>To List Your Configuration</h5>
+    <ul>
+        <li>git --list</li>
     </ul>
 
 </body>
